@@ -1,0 +1,15 @@
+.card {
+    position: relative;
+}
+.card .card-body p {
+    margin-bottom: 3rem;
+}
+.card .card-body p::after {
+    content: '';
+    height: 1px;
+    background-color: #80808080;
+    position: absolute;
+    left: 0;
+    width: 100%;
+    bottom: 4rem;
+}
